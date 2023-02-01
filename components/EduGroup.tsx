@@ -7,7 +7,7 @@ type Props = {
     id: number;
     title: string;
     subTitle: string;
-    list: string[];
+    //list: string[];
   };
 };
 
@@ -70,11 +70,6 @@ const EduGroup: React.FC<Props> = ({ edu }) => {
         role="list"
         className=" marker:text-marrsgreen dark:marker:text-carrigreen list-disc pl-6 space-y-1 mt-1"
       >
-        {edu.list.map((li) => (
-          <li key={li} className={`edu-list`}>
-            {li}
-          </li>
-        ))}
       </ul>
     </div>
   );

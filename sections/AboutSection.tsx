@@ -169,9 +169,8 @@ const AboutSection: React.FC = () => {
             </div>
 
             <p className="col-start-1 col-end-3 row-start-4 row-end-6 lg:row-start-1 lg:row-end-2 lg:col-start-3 lg:col-end-6 lg:ml-8 lg:mt-auto about-intro">
-              I have almost 3 years of working experience in web application
-              development_ including both frontend and backend. I'm currently
-              working as a lead developer at a Singapore company.
+             Experienced DevOps Engineer with a demonstrated history of working in the information technology and services industry. 
+            
             </p>
 
             <div
@@ -195,28 +194,18 @@ const AboutSection: React.FC = () => {
 const educationInfo = [
   {
     id: 1,
-    title: "B.Sc (Hons) in Computing",
-    subTitle: "Edinburgh Napier University | 2018 ~ 2019",
-    list: [
-      "Studied computer science, software development, DevOps",
-      "Graduated with First Class Honours",
-      "Got merit in 7 modules out of 9",
-    ],
+    title: "Btech in Computer Science and Engineering",
+    subTitle: "College of engineering vadakara,CUSAT | 2014 ~ 2018"
   },
   {
     id: 2,
-    title: "HND in Computing & System Development",
-    subTitle: "Info Myanmar University | 2016 - 2018",
-    list: [
-      "Studied modules specializing in software development",
-      "Passed HND with overall Merit",
-    ],
+    title: "Higher secondary education",
+    subTitle: "Govt.Higher Secondary School vadakara | 2012 - 2014",
   },
   {
     id: 3,
-    title: "IELTS",
-    subTitle: "British Council Myanmar | 2017",
-    list: ["Got overall band score 6.5."],
+    title: "SSLC",
+    subTitle: "Govt.Higher Secondary School vadakara | 2011",
   },
 ];
 
